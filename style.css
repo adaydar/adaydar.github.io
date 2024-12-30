@@ -1,7 +1,11 @@
-body {
+h1 {
     background-color: #f0f0f0; /* Change to your desired color */
     background-image: url('your-image-url.jpg'); /* Optional: Add a background image */
-    background-size: cover; /* Ensures the image covers the whole background */
     background-repeat: no-repeat; /* Prevents tiling */
-    background-attachment: fixed; /* Keeps the background fixed on scroll */
+    background-size: cover; /* Adjusts the size of the background */
+    background-clip: padding-box; /* Ensures background stays within padding */
+    padding: 10px; /* Adds space inside the element */
+    border-radius: 5px; /* Rounds corners, optional */
+    color: #000; /* Adjust text color to contrast with background */
+    text-align: center; /* Optional: Center the text */
 }
