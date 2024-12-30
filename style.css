@@ -1,6 +1,6 @@
 h1 {
     background-color: #f0f0f0; /* Change to your desired color */
-    background-image: url('your-image-url.jpg'); /* Optional: Add a background image */
+    background-image: url('https://www.google.com/search?q=colored+wave&client=firefox-b-d&sca_esv=fff805f43cc79d79&udm=2&biw=1400&bih=676&sxsrf=ADLYWIL_3Hd9WS4QBuWoWbAZJszbUVl_JA%3A1735560889151&ei=uY5yZ-z4CJKhvr0P1IylmAo&ved=0ahUKEwisuaKSvM-KAxWSkK8BHVRGCaMQ4dUDCBE&uact=5&oq=colored+wave&gs_lp=EgNpbWciDGNvbG9yZWQgd2F2ZTIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCkiCPVD1FljdOXADeACQAQKYAb0EoAG5IqoBCTItOC4yLjMuMbgBA8gBAPgBAZgCD6AC2RqoAgrCAgYQABgHGB7CAgUQABiABMICBhAAGAgYHsICCxAAGIAEGLEDGIMBwgIIEAAYgAQYsQPCAg4QABiABBixAxiDARiKBcICChAAGIAEGEMYigXCAg0QABiABBixAxhDGIoFwgIMEAAYgAQYQxiKBRgKwgIHECMYJxjqAsICBBAjGCeYAwWIBgGSBwkzLjAuOC4yLjKgB-RU&sclient=img#vhid=QvwTCLRXIOzETM&vssid=mosaic'); /* Optional: Add a background image */
     background-repeat: no-repeat; /* Prevents tiling */
     background-size: cover; /* Adjusts the size of the background */
     background-clip: padding-box; /* Ensures background stays within padding */
