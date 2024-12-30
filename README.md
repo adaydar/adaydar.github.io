@@ -6,6 +6,7 @@ Academic profile of Akshay Daydar
 
 **Intern at Department of Experimental Mechanics and Virtual Reality (EMV), R&D Hyderabad**  
 
+**Supervisors:**  [Prof. N. Selvaraj (ME, NITW)]([https://scholar.google.com/citations?user=R5tad5IAAAAJ&hl=en]) and [Mr. Vimal Kumar Gaurav (Senior Engineer, BHEL)]([https://www.linkedin.com/in/vimal-kumar-gaurav-05439065/?originalSubdomain=in])
 **Project Title: Predictive Modelling of the Steam turbine generator unit and critical parameters Identification for rotor vibration and bearing problems.**  
 
 **Abstract:** Data-driven techniques are extensively applied in thermal power plants for performance prediction, critical parameter control, emission and loss monitoring, and fault diagnosis, providing a foundation for energy sector performance management. This study uses data-driven modeling to predict steam turbine and generator unit outputs while identifying critical parameters for rotor vibration and bearing issues. Data collected after 12 hours of turbine generator operation included 56 input and 131 output parameters, categorized for vibration and bearing problems based on literature. Parameter selection was refined using heat balance sheets and Pearson correlation analysis. Models such as Artificial Neural Networks, Elman’s Recurrent Neural Networks, Decision Trees, and Random Forests were developed using full features and a Principal Component Analysis approach, achieving high prediction accuracy. The best model, evaluated on RMSE, MARD, and R², was used to identify critical parameters and suggested for future predictions. A graphical user interface was developed to aid multi-regression and multi-target regression visualization, with recommendations for dynamic training, online monitoring, and governing strategies to reduce rotor vibration and mitigate bearing problems.
@@ -14,7 +15,9 @@ Academic profile of Akshay Daydar
 ## Projects
 ### Ph.D. 
 **September 2020 - Ongoing**
-**Supervisors: Prof. S. Kanagaraj (ME) and Prof. Arijit Sur (CSE)**
+
+**Supervisors:** [Prof. S. Kanagaraj (ME)]([https://scholar.google.co.in/citations?user=Cf-YQq4AAAAJ&hl=en]) and [Prof. Arijit Sur (CSE)]([https://scholar-google-co-in.translate.goog/citations?user=-klnWqYAAAAJ&hl=en&_x_tr_sl=en&_x_tr_tl=hi&_x_tr_hl=hi&_x_tr_pto=tc])
+
 **Project Title - Classification of Knee Osteoarthritis from Radiological and Gait Data Using Deep Learning Models and Multimodal Approach.**
 
 **Abstract:** 
