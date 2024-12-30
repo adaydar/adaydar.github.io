@@ -1,1 +1,7 @@
-
+body {
+    background-color: #f0f0f0; /* Change to your desired color */
+    background-image: url('your-image-url.jpg'); /* Optional: Add a background image */
+    background-size: cover; /* Ensures the image covers the whole background */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-attachment: fixed; /* Keeps the background fixed on scroll */
+}
