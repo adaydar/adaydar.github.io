@@ -1,128 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akshay Daydar</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f8f9fa;
-            color: #212529;
-        }
-
-        header, section {
-            max-width: 1000px;
-            margin: 0 auto 30px;
-            padding: 20px;
-            background: #ffffff;
-            border-radius: 12px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        }
-
-        h1, h2, h3 {
-            color: #0d6efd;
-        }
-
-        .profile-photo {
-            border-radius: 50%;
-            margin-bottom: 10px;
-        }
-
-        .project-title {
-            color: #0d6efd;
-            cursor: pointer;
-            font-weight: bold;
-        }
-
-        .project-title:hover {
-            color: #fd7e14;
-        }
-
-        .abstract, .abst {
-            display: none;
-            margin-top: 10px;
-        }
-
-        a {
-            color: #198754;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        .publication {
-            margin-bottom: 15px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Akshay Daydar</title>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f8;
+      margin: 0;
+      padding: 0;
+      color: #212529;
+    }
+    header, section {
+      max-width: 1000px;
+      margin: 30px auto;
+      background: #fff;
+      border-radius: 12px;
+      padding: 25px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    h1, h2, h3 {
+      color: #0d6efd;
+    }
+    .profile-photo {
+      border-radius: 50%;
+      margin-bottom: 15px;
+      max-width: 100%;
+    }
+    .project-title {
+      color: #0d6efd;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .project-title:hover {
+      color: #fd7e14;
+    }
+    .abstract, .abst {
+      display: none;
+      margin-top: 10px;
+    }
+    a {
+      color: #198754;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .publication {
+      margin-bottom: 15px;
+    }
+    .centered {
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
 
-    <div style="text-align: center;">
-        <img src="AD_image.jpeg" alt="Akshay Daydar" class="profile-photo" width="300" height="300">
-        <h1>Akshay Daydar</h1>
+  <div class="centered">
+    <img src="AD_image.jpeg" alt="Akshay Daydar" class="profile-photo" width="300" height="300"/>
+    <h1>Akshay Daydar</h1>
+  </div>
+
+  <header>
+    <p><strong>Brief Description:</strong> Akshay Daydar is a PhD candidate in the Department of Mechanical Engineering at the Indian Institute of Technology Guwahati (IIT Guwahati). His research interests include biomedical image processing, deep learning, and human gait analysis. Prior to joining IIT Guwahati, Akshay completed his postgraduate and undergraduate studies at the National Institute of Technology Warangal (NITW) and Government College of Engineering, respectively. He has also interned at BHEL Corporate R&D Hyderabad for his postgraduation project. Besides his academic pursuits, he enjoys photography, sketching, and traveling.</p>
+  </header>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <h3>Bharat Heavy Electricals Limited (BHEL)</h3>
+    <p><strong>July 2019 - May 2020</strong></p>
+    <p><strong>Intern at Department of Experimental Mechanics and Virtual Reality (EMV), R&D Hyderabad</strong></p>
+    <p><strong>Supervisors:</strong>
+      <a href="https://scholar.google.com/citations?user=R5tad5IAAAAJ&hl=en">Prof. N. Selvaraj (ME, NITW)</a> and 
+      <a href="https://www.linkedin.com/in/vimal-kumar-gaurav-05439065/?originalSubdomain=in">Mr. Vimal Kumar Gaurav (Senior Engineer, BHEL)</a>
+    </p>
+
+    <p>
+      <span class="project-title" onclick="toggleAbstract()">Project Title: Predictive Modelling of the Steam turbine generator unit and critical parameters Identification for rotor vibration and bearing problems.</span>
+    </p>
+    <div class="abstract" id="abstract">
+      <p><strong>Description:</strong> This project used data-driven modeling to predict steam turbine and generator outputs and identify critical parameters for rotor vibration and bearing issues. Techniques included ANN, RNN, Decision Trees, and Random Forests with feature selection via PCA and Pearson correlation. The final model suggested critical parameters and included a GUI for visualization and dynamic analysis.</p>
     </div>
 
-    <header>
-        <p><strong>Brief Description:</strong> Akshay Daydar is a PhD candidate in the Department of Mechanical Engineering at IIT Guwahati. His research interests include biomedical image processing, deep learning, and human gait analysis.</p>
-    </header>
+    <script>
+      function toggleAbstract() {
+        const abstract = document.getElementById("abstract");
+        abstract.style.display = abstract.style.display === "block" ? "none" : "block";
+      }
+    </script>
 
-    <section id="publications">
-        <h2>Publications</h2>
+    <p><strong>Keywords:</strong> Predictive Modelling | Statistical Data Analysis | Classical Machine Learning Models | Explainability Methods. Software: R (Interfaces: R studio, R-Shiny).</p>
 
-        <div class="publication">
-            <p><strong>1. </strong>"<strong>Comparison of Predictive Modeling Techniques for Determining Power Output in The Thermal Power Plant</strong>"  
-            – <em>ICMLDA 2020 (Best Paper Award)</em></p>
-        </div>
+    <p><strong>Publication:</strong></p>
+    <p><strong>1. Vimal Kumar Gaurav, Daydar Akshay, N. Selvaraj, Krishnaiah Jallu, K. Ramakrishna.</strong> "<strong>Comparison of Predictive Modeling Techniques for Determining Power Output in The Thermal Power Plant</strong>", International conference on machine learning and data Analytics 2020 (Best Paper Award).</p>
+  </section>
 
-        <div class="publication">
-            <p><strong>2. </strong>"<strong>Diffusion Based Shape-Aware Learning with Multi-Scale Context for Segmentation of Tibiofemoral Knee Joint Tissues: An End-to-End Approach</strong>"  
-            – <em>Under Review at ICIP 2025</em>  
-            [<a href="https://arxiv.org/abs/2401.12932" target="_blank">Preprint</a>]</p>
-        </div>
+  <section id="projects">
+    <h2>Ph.D. Projects</h2>
+    <p><strong>September 2020 - Ongoing</strong></p>
+    <p><strong>Supervisors:</strong> 
+      <a href="https://scholar.google.co.in/citations?user=Cf-YQq4AAAAJ&hl=en">Prof. S. Kanagaraj (ME)</a>, 
+      <a href="https://scholar.google.com/citations?user=-klnWqYAAAAJ&hl=en">Prof. Arijit Sur (CSE)</a>
+    </p>
 
-        <div class="publication">
-            <p><strong>3. </strong>"<strong>DeepOsteoCLS: Deep Learning-Based Framework for Knee Osteoarthritis Classification With Visual Explanations from Radiographs and MRI Volumes</strong>"  
-            – <em>Under Review at Biomedical Signal Processing and Control (Q1)</em></p>
-        </div>
+    <p>
+      <span class="project-title" onclick="toggleAbstract1()">Project Title: Classification of Knee Osteoarthritis from Radiological and Gait Data Using Deep Learning Models and Multimodal Approach.</span>
+    </p>
+    <div class="abst" id="abst">
+      <p><strong>Description:</strong> This study develops automated tools to classify Knee Osteoarthritis (KOA) using deep learning on X-ray, MRI, and gait data. A multimodal approach integrates visual and biomechanical features. Novel segmentation, correlation metrics, and anomaly detection frameworks enhance KOA diagnosis accuracy.</p>
+    </div>
 
-        <div class="publication">
-            <p><strong>4. </strong>"<strong>Med-SeAM: Medical Context Aware Self-Supervised Learning Framework for Anomaly Classification in Knee MRI</strong>"  
-            – <em>Accepted at ICVGIP 2024</em>  
-            [<a href="https://dl.acm.org/doi/10.1145/3702250.3702276" target="_blank">Paper Link</a>]</p>
-        </div>
+    <script>
+      function toggleAbstract1() {
+        const abst = document.getElementById("abst");
+        abst.style.display = abst.style.display === "block" ? "none" : "block";
+      }
+    </script>
 
-        <div class="publication">
-            <p><strong>5. </strong>"<strong>MedCAM-OsteoCls: Medical Context Aware Multimodal Classification of Knee Osteoarthritis</strong>"  
-            – <em>Accepted at ICASSP 2025</em>  
-            [<a href="https://ieeexplore.ieee.org/document/10889060" target="_blank">Paper Link</a>]</p>
-        </div>
+    <p><strong>Keywords:</strong> Semantic Segmentation | Multiclass Classification | Multilabel Classification | Gait Data Collection | Medical Context Aware Deep Learning Models. Software: Python (Interfaces: PyTorch, Monai, TensorFlow).</p>
+  </section>
 
-        <div class="publication">
-            <p><strong>6. </strong>"<strong>Development of a Portable Plantar Image Acquisition Setup and its Analysis for Pressure Distribution and Arch Index of Varied Foot-types using an Artificial Intelligence</strong>"  
-            – <em>Under Review at ICECCT 2025</em></p>
-        </div>
+  <section id="publications">
+    <h2>Publications</h2>
 
-        <div class="publication">
-            <p><strong>7. </strong>"<strong>Automated Flat Foot Diagnosis using Generative Model and Color Channel Feature Integration Network</strong>"  
-            – <em>Under Review at ICECCT 2025</em></p>
-        </div>
+    <div class="publication"><strong>1.</strong> "Comparison of Predictive Modeling Techniques for Determining Power Output in The Thermal Power Plant" – <em>ICMLDA 2020 (Best Paper Award)</em></div>
 
-        <div class="publication">
-            <p><strong>8. </strong>"<strong>River-GEM: Generating and Enhancing Muddy Water Images</strong>"  
-            – <em>Accepted at ICASSP 2025</em>  
-            [<a href="https://ieeexplore.ieee.org/document/10887847" target="_blank">Paper Link</a>]</p>
-        </div>
+    <div class="publication"><strong>2.</strong> "Diffusion Based Shape-Aware Learning with Multi-Scale Context for Segmentation of Tibiofemoral Knee Joint Tissues: An End-to-End Approach." – <em>Under Review at ICIP 2025</em> [<a href="https://arxiv.org/abs/2401.12932">Preprint</a>]</div>
 
-        <div class="publication">
-            <p><strong>9. </strong>"<strong>Prompt-Guided Underwater Image Enhancement: Tackling Diverse Degradations with a Unified Framework</strong>"  
-            – <em>Under Review at ICIP 2025</em></p>
-        </div>
+    <div class="publication"><strong>3.</strong> "DeepOsteoCLS: Deep Learning-Based Framework for Knee Osteoarthritis Classification With Visual Explanations from Radiographs and MRI Volumes." – <em>Under Review at Biomedical Signal Processing and Control (Q1)</em></div>
 
-    </section>
+    <div class="publication"><strong>4.</strong> "Med-SeAM: Medical Context Aware Self-Supervised Learning Framework for Anomaly Classification in Knee MRI." – <em>Accepted at ICVGIP 2024</em> [<a href="https://dl.acm.org/doi/10.1145/3702250.3702276">Link</a>]</div>
+
+    <div class="publication"><strong>5.</strong> "MedCAM-OsteoCls: Medical Context Aware Multimodal Classification of Knee Osteoarthritis." – <em>Accepted at ICASSP 2025</em> [<a href="https://ieeexplore.ieee.org/document/10889060">Link</a>]</div>
+
+    <div class="publication"><strong>6.</strong> "Development of a Portable Plantar Image Acquisition Setup and its Analysis for Pressure Distribution and Arch Index of Varied Foot-types using an Artificial Intelligence." – <em>Under Review at ICECCT 2025</em></div>
+
+    <div class="publication"><strong>7.</strong> "Automated Flat Foot Diagnosis using Generative Model and Color Channel Feature Integration Network." – <em>Under Review at ICECCT 2025</em></div>
+
+    <div class="publication"><strong>8.</strong> "River-GEM: Generating and Enhancing Muddy Water Images." – <em>Accepted at ICASSP 2025</em> [<a href="https://ieeexplore.ieee.org/document/10887847">Link</a>]</div>
+
+    <div class="publication"><strong>9.</strong> "Prompt-Guided Underwater Image Enhancement: Tackling Diverse Degradations with a Unified Framework." – <em>Under Review at ICIP 2025</em></div>
+
+  </section>
 
 </body>
 </html>
