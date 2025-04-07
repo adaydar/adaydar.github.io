@@ -7,9 +7,9 @@
 
 /* Background and overall font */
 body {
-    background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient background */
+    background-color: white; /* Changed from gradient to plain white */
     font-family: 'Arial', sans-serif;
-    color: #fff;
+    color: #212529; /* Changed text color to dark for visibility on white */
     line-height: 1.6;
     padding: 20px;
 }
