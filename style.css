@@ -9,7 +9,7 @@
 body {
     background-color: white; /* Changed from gradient to plain white */
     font-family: 'Arial', sans-serif;
-    color: #212529; /* Changed text color to dark for visibility on white */
+    color: black; /* Changed text color to dark for visibility on white */
     line-height: 1.6;
     padding: 20px;
 }
