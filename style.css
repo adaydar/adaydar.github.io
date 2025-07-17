@@ -72,8 +72,8 @@ pre {
 /* Uniform image wrapper */
 .carousel-image-wrapper {
   width: 100%;
-  max-width: 800px;  /* Adjust as needed */
-  height: 400px;      /* Fixed height for uniformity */
+  max-width: 100px;  /* Adjust as needed */
+  height: 100px;      /* Fixed height for uniformity */
   margin: 0 auto;
   overflow: hidden;
   border-radius: 12px;
