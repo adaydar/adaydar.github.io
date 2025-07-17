@@ -67,6 +67,8 @@ pre {
 .carousel-slide {
   display: none;
   text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Uniform image wrapper */
