@@ -14,6 +14,62 @@ body {
     padding: 20px;
 }
 
+/* News Ticker Box */
+.news-ticker-container {
+  max-width: 1000px;
+  margin: 20px auto;
+  background: #fff3cd;
+  border-left: 6px solid #ff9800;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px 0;
+  box-shadow: 0 0 10px rgba(255,165,0,0.4);
+}
+
+/* Title */
+.news-label {
+  font-weight: bold;
+  color: white;
+  background: #ff5722;
+  padding: 8px 15px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+/* Scrolling area */
+.news-ticker {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+/* Scrolling text */
+.news-ticker-text {
+  display: inline-block;
+  padding-left: 100%;
+  animation: scrollNews 25s linear infinite;
+}
+
+/* Scroll animation */
+@keyframes scrollNews {
+  from { transform: translateX(0); }
+  to { transform: translateX(-100%); }
+}
+
+/* NEW tag */
+.flash {
+  color: white;
+  background: red;
+  padding: 3px 8px;
+  border-radius: 6px;
+  margin-right: 5px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
 /* Header styling */
 header {
     text-align: center;
