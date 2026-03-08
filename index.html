@@ -139,6 +139,82 @@
 </body>
 
 <!-- ===== News Ticker (Centered) ===== -->
+<style>
+.news-ticker-container{
+  max-width: 1000px;
+  margin: 30px auto;
+  background:#fff3cd;
+  border-left:6px solid #ff9800;
+  border-radius:12px;
+  overflow:hidden;
+  padding:10px 15px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.1);
+  font-family:Arial, sans-serif;
+}
+
+.news-ticker{
+  display:flex;
+  align-items:center;
+  gap:15px;
+}
+
+.news-label{
+  background:#ff5722;
+  color:white;
+  font-weight:bold;
+  padding:6px 12px;
+  border-radius:6px;
+  white-space:nowrap;
+}
+
+.news-ticker-text{
+  white-space:nowrap;
+  display:inline-block;
+  animation:scrollNews 25s linear infinite;
+}
+
+.news-ticker-container:hover .news-ticker-text{
+  animation-play-state:paused;
+}
+
+@keyframes scrollNews{
+  from{transform:translateX(100%);}
+  to{transform:translateX(-100%);}
+}
+
+.flash{
+  background:red;
+  color:white;
+  padding:2px 7px;
+  border-radius:5px;
+  margin-right:6px;
+  font-size:12px;
+  animation:blink 1s infinite;
+}
+
+@keyframes blink{
+  50%{opacity:0;}
+}
+</style>
+
+<div class="news-ticker-container">
+  <div class="news-ticker">
+
+    <span class="news-label">📢 NEWS</span>
+
+    <div class="news-ticker-text">
+
+      <span class="flash">NEW</span> March 2026 – Paper on Radiology Report Generation published in IEEE Journal of Biomedical and Health Informatics &nbsp;&nbsp;&nbsp; • &nbsp;&nbsp;&nbsp;
+
+      <span class="flash">NEW</span> February 2026 – Paper on Knee Osteoarthritis Classification published in Elsevier Biomedical Signal Processing and Control &nbsp;&nbsp;&nbsp; • &nbsp;&nbsp;&nbsp;
+
+      <span class="flash">NEW</span> February 2026 – Received Best Reviewer Award – IEEE Journal of Oceanic Engineering
+
+    </div>
+
+  </div>
+</div>
+<!-- ===== End News Ticker ===== -->
 
   <!-- ✅ Tab Buttons -->
   <div class="tab">
